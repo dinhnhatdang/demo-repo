@@ -19,3 +19,11 @@ $ git status
 Track all the file before commit (git add .) or track specific a file before commit (git add index.html as example)
 ../demo-repo
 $ git add .
+
+Commit = save your code (locally). -m = message
+../demo-repo
+$ git commit -m "Added index.html" -m "some description"
+
+Push = push this file live to remote repository where my project is hosted (Github)
+../demo-repo
+$ git push
