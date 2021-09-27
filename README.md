@@ -37,3 +37,6 @@ $ ls cd - => back to previous folder
 
 - Switch between branches
   $ git checkout <branch name>
+
+- Check the difference between branches
+  $ git diff feature-readme-instructions
