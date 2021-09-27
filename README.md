@@ -46,3 +46,12 @@ $ ls cd - => back to previous folder
 
 - Delete branch that's already pull
   $ git branch -d feature-readme-instructions
+
+## Undo
+
+- Undo stage (undo git add)
+  $ git reset <file name>
+- Undo commit (undo git commit)
+  $ git reset HEAD~1
+  (HEAD~1 = HEAD: the last commit to ~ 1 commit before its) = undo 1 last commit
+  (HEAD~2) = HEAD; the last commit to ~ 2 commit before its) = undo 2 last commit
