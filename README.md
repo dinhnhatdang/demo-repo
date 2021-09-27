@@ -40,3 +40,9 @@ $ ls cd - => back to previous folder
 
 - Check the difference between branches
   $ git diff feature-readme-instructions
+
+- After pull request in Github repository, you should pull in local machine for change the code at local machine
+  $ git pull origin main
+
+- Delete branch that's already pull
+  $ git branch -d feature-readme-instructions
